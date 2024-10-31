@@ -11,20 +11,25 @@ a {
     width: 1140px;
     margin: auto;
 }
+
 .header {
     display: flex;
     padding: 25px 0px;
     align-items: center;
 }
+
 .logo {
     flex-basis: 20%;
 }
-.logo img{
+
+.logo img {
     width: 20%;
 }
-.menu{
+
+.menu {
     flex-basis: 80%;
 }
+
 .menu ul {
     display: flex;
     justify-content: flex-end;
@@ -37,4 +42,51 @@ a {
 .menu ul li a {
     color: black;
     margin-right: 50px;
+}
+
+.banner {
+    background-color: black;
+    padding: 26px 20px;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    font-weight: 800;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.banner p {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #06dee9;
+}
+
+.banner Span {
+    border: 2px solid tomato;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+}
+.contant-list{
+    display: flex;
+    flex-basis: 100%;
+    background-color: black;
+}
+.name-list {
+    color: white;
+    flex-basis: 50%;
+    padding: 20px 24px;
+}
+
+.name-list li {
+    color: white;
+}
+
+.name-list li a {
+    color: white;
+    text-decoration: none;
 }
